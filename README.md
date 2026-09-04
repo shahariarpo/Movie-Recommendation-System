@@ -28,7 +28,7 @@ Built on the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb
 ## Running locally
 
 ```bash
-git clone https://github.com/<your-username>/Movie-Recommendation-System.git
+git clone https://github.com/shahariarpo/Movie-Recommendation-System.git
 cd Movie-Recommendation-System
 pip install -r requirements.txt
 ```
