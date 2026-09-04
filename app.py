@@ -34,6 +34,10 @@ similarity = pickle.load(open("similarity.pkl", "rb"))
 movies_df = pickle.load(open("movies.pkl", "rb"))
 movies_list = movies_df['title'].values
 
+st.set_page_config(
+        page_title="Movie Recommender System",
+)
+
 st.header("Movie Recommender System", divider=True)
 st.write("Model trained on tmdb_5000_movies dataset. (1990s - 2010s)")
 
